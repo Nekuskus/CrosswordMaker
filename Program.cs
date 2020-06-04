@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace CrosswordMaker
 {
@@ -21,7 +22,7 @@ namespace CrosswordMaker
     }
     public class Crossword
     {
-        public static void GetDatabase()
+        public static async void GetDatabase()
         {
 
         }
